@@ -220,29 +220,23 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "",
-    date: "Apr 2023 - May 2023",
+    title: "TechBook",
+    date: "Apr 2022 - May 2022",
     description:
-      "",
+      "A Blog App, meticulously crafted with JSP, Servlet, MySQL, and Bootstrap,  providing users with a dynamic space to share their thoughts across diverse categories .This dynamic application seamlessly integrates user-generated content across specified categories. With a responsive design facilitated by Bootstrap, users can effortlessly engage with the platform on any device. Beyond mere blogging, interactive features like comments and likes foster a sense of community, making this app a vibrant space for discussions. This project stands as a testament to my proficiency in combining cutting-edge technologies to create a professional and engaging web solution. ",
     image:
-      "",
-    tags: [],
+      "https://raw.githubusercontent.com/qasimk02/TechBook/master/readme-assets/blogPage.PNG",
+    tags: ["Java","JSP","Servlet","MySql","JDBC","JavaScript","Bootstrap"],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/qasimk02/TechBook",
+    webapp: "https://github.com/qasimk02/TechBook",
     member: [
       {
         name: "Mohammad Qasim",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-      {
-        name: "Sudesh Manjrekar",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
+        img: "https://drive.google.com/file/d/1_zLZtz8Pd3_doDNNRKPCQnp5BhjRaPeS/view",
+        linkedin: "https://www.linkedin.com/in/mohammad-qasim-9ba96120a/",
+        github: "https://github.com/qasimk02",
+      }
     ],
   }
 ];
