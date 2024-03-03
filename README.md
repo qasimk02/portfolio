@@ -1,6 +1,10 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a Full Stack developer.
 
+<p align="center">
+  <img src="readme-assets/portfolioAbout.PNG" alt="demo">
+</p>
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
