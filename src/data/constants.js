@@ -225,7 +225,7 @@ export const projects = [
     description:
      "A dynamic e-commerce web application featuring a suite of RESTful APIs for efficient management of products, categories, cart, users, admin, orders, reviews, and ratings. Ensured a secure environment with role-based authentication using Spring Security and JWT, while seamlessly integrating Razorpay for smooth payment transactions. The application boasts user-centric features like product rating, reviewing, and advanced search and filtering capabilities. The visually appealing and consistent UI design, crafted with Material UI and Tailwind CSS, enhances the overall user experience, making it an exemplary showcase of my skills in creating robust and user-friendly e-commerce solutions.",
     image:
-      "https://raw.githubusercontent.com/qasimk02/TechBook/master/readme-assets/blogPage.PNG",
+      "https://github.com/qasimk02/zesty-ecom-frontend/raw/develop/readme-assets/zestyHomepage.PNG",
     tags: ["Java","Javascript","Spring Boot","Spring Security","React","Redux","MUI","Tailwind Css","JWT","AWS"],
     category: "web app",
     github: "https://github.com/qasimk02/zesty-ecom-backend",
@@ -246,6 +246,19 @@ export const projects = [
   },
   {
     id: 2,
+    title: "FACE DETECTIFY",
+    date: "Apr 2021 - May 2021",
+    description:
+      "Developed a dynamic and secure face detection web application using a tech stack comprising React, NodeJS, and Express JS. Implemented a robust user authentication system, enabling users to create accounts, log in, and log out securely. The user-friendly React interface allows seamless image uploads for face detection. Leveraged PostgreSQL for efficient data management, storing and tracking the number of image entries in the database. A successful integration with the Clarifai API enhances the app's facial recognition capabilities. This project demonstrates my proficiency in full-stack development, user authentication, and seamless API integration.",
+    image:
+      "https://raw.githubusercontent.com/qasimk02/face-detectify-frontend/develop/readme-assets/faceDetectifyHome.PNG",
+    tags: ["React","Node JS","Express JS","PostgreSql","Clarifi API","CSS","Javascript"],
+    category: "machine learning",
+    github: "https://github.com/qasimk02/face-detectify-frontend",
+    webapp: "https://github.com/qasimk02/face-detectify-frontend",
+  },
+  {
+    id: 2,
     title: "SERCUIT",
     date: "Sep 2022 - Jan 2023",
     description:
@@ -253,7 +266,7 @@ export const projects = [
     image:
       "https://raw.githubusercontent.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System/master/readme-assets/dashboard.png",
     tags: ["Raspberry Pi","Python","Flask","React","Javascript","Css","Wifi Module"],
-    category: "web app",
+    category: "iot",
     github: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
     webapp: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
     member: [
@@ -270,7 +283,20 @@ export const projects = [
         github: "https://github.com/Sudesh22",
       },
     ],
-  }
+  },
+  {
+    id: 4,
+    title: "TIC TAC TOE",
+    date: "June 2021 - July 2021",
+    description:
+     "Created a responsive 2-player Tic Tac Toe game using HTML, CSS, and JavaScript, showcasing meticulous design and implementation. Focused on optimal user experience, the project involved careful calculations and precise DOM manipulation. The result is an engaging and seamless web game, demonstrating technical proficiency and a commitment to clean, efficient code. This project reflects a dedication to delivering a polished, user-centric product within a compact and responsive framework.",
+    image:
+      "https://raw.githubusercontent.com/qasimk02/Tic-tac-toe-game/master/readme-assets/gameWin.PNG",
+    tags: ["Html","CSS","Javascript"],
+    category: "web app",
+    github: "https://github.com/qasimk02/Tic-tac-toe-game",
+    webapp: "https://master--tic-tac-toe-game-qasim.netlify.app/",
+  },
 ];
 
 export const TimeLineData = [
