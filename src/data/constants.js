@@ -220,23 +220,55 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Zesty Ecommerce App",
+    date: "Apr 2023 - Nov 2023",
+    description:
+     "A dynamic e-commerce web application featuring a suite of RESTful APIs for efficient management of products, categories, cart, users, admin, orders, reviews, and ratings. Ensured a secure environment with role-based authentication using Spring Security and JWT, while seamlessly integrating Razorpay for smooth payment transactions. The application boasts user-centric features like product rating, reviewing, and advanced search and filtering capabilities. The visually appealing and consistent UI design, crafted with Material UI and Tailwind CSS, enhances the overall user experience, making it an exemplary showcase of my skills in creating robust and user-friendly e-commerce solutions.",
+    image:
+      "https://raw.githubusercontent.com/qasimk02/TechBook/master/readme-assets/blogPage.PNG",
+    tags: ["Java","Javascript","Spring Boot","Spring Security","React","Redux","MUI","Tailwind Css","JWT","AWS"],
+    category: "web app",
+    github: "https://github.com/qasimk02/zesty-ecom-backend",
+    webapp: "https://github.com/qasimk02/zesty-ecom-backend",
+  },
+  {
+    id: 1,
     title: "TechBook",
     date: "Apr 2022 - May 2022",
     description:
-      "A Blog App, meticulously crafted with JSP, Servlet, MySQL, and Bootstrap,  providing users with a dynamic space to share their thoughts across diverse categories .This dynamic application seamlessly integrates user-generated content across specified categories. With a responsive design facilitated by Bootstrap, users can effortlessly engage with the platform on any device. Beyond mere blogging, interactive features like comments and likes foster a sense of community, making this app a vibrant space for discussions. This project stands as a testament to my proficiency in combining cutting-edge technologies to create a professional and engaging web solution. ",
+      "A Blogging website, meticulously crafted with JSP, Servlet, MySQL, and Bootstrap,  providing users with a dynamic space to share their thoughts across diverse categories .This dynamic application seamlessly integrates user-generated content across specified categories. With a responsive design facilitated by Bootstrap, users can effortlessly engage with the platform on any device. Beyond mere blogging, interactive features like comments and likes foster a sense of community, making this app a vibrant space for discussions. This project stands as a testament to my proficiency in combining cutting-edge technologies to create a professional and engaging web solution. ",
     image:
       "https://raw.githubusercontent.com/qasimk02/TechBook/master/readme-assets/blogPage.PNG",
     tags: ["Java","JSP","Servlet","MySql","JDBC","JavaScript","Bootstrap"],
     category: "web app",
     github: "https://github.com/qasimk02/TechBook",
     webapp: "https://github.com/qasimk02/TechBook",
+  },
+  {
+    id: 2,
+    title: "SERCUIT",
+    date: "Sep 2022 - Jan 2023",
+    description:
+      "A web-based IOT application that seamlessly integrates Raspberry Pi, STM32, and a WiFi module to transmit device data seamlessly to a backend built on Python Flask and PostgreSQL. The project featured a secure React-based web app with real-time data visualization and dynamic charting for efficient monitoring and analysis, showcasing my skills in hardware integration, software development, and end-to-end solution creation",
+    image:
+      "https://raw.githubusercontent.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System/master/readme-assets/dashboard.png",
+    tags: ["Raspberry Pi","Python","Flask","React","Javascript","Css","Wifi Module"],
+    category: "web app",
+    github: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
+    webapp: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
     member: [
       {
         name: "Mohammad Qasim",
-        img: "https://drive.google.com/file/d/1_zLZtz8Pd3_doDNNRKPCQnp5BhjRaPeS/view",
+        img: "https://raw.githubusercontent.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System/master/frontend/public/images/qasim.png",
         linkedin: "https://www.linkedin.com/in/mohammad-qasim-9ba96120a/",
         github: "https://github.com/qasimk02",
-      }
+      },
+      {
+        name: "Sudesh Manjrekar",
+        img: "https://raw.githubusercontent.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System/master/frontend/public/images/sudesh.jpeg",
+        linkedin: "https://www.linkedin.com/in/sudesh22/",
+        github: "https://github.com/Sudesh22",
+      },
     ],
   }
 ];
