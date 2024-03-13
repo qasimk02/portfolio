@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "Driven Final-year engineering student with a passion for technology, seeking to make a positive impact on the world through software development. Leveraging strong problem-solving skills, I am dedicated to personal growth and actively contributing to innovative projects in the field.",
   github: "https://github.com/qasimk02",
-  resume: "https://drive.google.com/file/d/1h_35cnPpO0VKMwoA1GAsc8xYsVWGpOfA/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1pWwKmsiVT0v6mmQXPJjBWbs02ZcVwQzf/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/mohammad-qasim-9ba96120a/",
   twitter: "#",
   insta: "#",
