@@ -1,15 +1,11 @@
-
 export const Bio = {
   name: "Mohammad Qasim",
-  roles: [
-    "Full Stack Developer",
-    "Java Developer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "Java Developer", "Programmer"],
   description:
     "Driven Final-year engineering student with a passion for technology, seeking to make a positive impact on the world through software development. Leveraging strong problem-solving skills, I am dedicated to personal growth and actively contributing to innovative projects in the field.",
   github: "https://github.com/qasimk02",
-  resume: "https://drive.google.com/file/d/1pWwKmsiVT0v6mmQXPJjBWbs02ZcVwQzf/view?usp=drive_link",
+  resume:
+    "https://drive.google.com/file/d/1pWwKmsiVT0v6mmQXPJjBWbs02ZcVwQzf/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/mohammad-qasim-9ba96120a/",
   twitter: "#",
   insta: "#",
@@ -53,7 +49,7 @@ export const skills = [
         name: "Material UI",
         image:
           "data:image/png;base64,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",
-      }
+      },
     ],
   },
   {
@@ -66,11 +62,13 @@ export const skills = [
       },
       {
         name: "Spring",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
       },
       {
         name: "Spring Boot",
-        image: "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
+        image:
+          "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
       },
       {
         name: "MySQL",
@@ -79,11 +77,13 @@ export const skills = [
       },
       {
         name: "Node Js",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "Express Js",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
       },
       {
         name: "MongoDB",
@@ -127,7 +127,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
       },
       {
         name: "GitHub",
@@ -157,8 +157,8 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
-        },
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+      },
     ],
   },
 ];
@@ -184,7 +184,7 @@ export const experiences = [
       " Next Js",
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  }
+  },
 ];
 
 export const education = [
@@ -223,13 +223,24 @@ export const projects = [
     title: "Zesty Ecommerce App",
     date: "Apr 2023 - Nov 2023",
     description:
-     "A dynamic e-commerce web application featuring a suite of RESTful APIs for efficient management of products, categories, cart, users, admin, orders, reviews, and ratings. Ensured a secure environment with role-based authentication using Spring Security and JWT, while seamlessly integrating Razorpay for smooth payment transactions. The application boasts user-centric features like product rating, reviewing, and advanced search and filtering capabilities. The visually appealing and consistent UI design, crafted with Material UI and Tailwind CSS, enhances the overall user experience, making it an exemplary showcase of my skills in creating robust and user-friendly e-commerce solutions.",
+      "A dynamic e-commerce web application featuring a suite of RESTful APIs for efficient management of products, categories, cart, users, admin, orders, reviews, and ratings. Ensured a secure environment with role-based authentication using Spring Security and JWT, while seamlessly integrating Razorpay for smooth payment transactions. The application boasts user-centric features like product rating, reviewing, and advanced search and filtering capabilities. The visually appealing and consistent UI design, crafted with Material UI and Tailwind CSS, enhances the overall user experience, making it an exemplary showcase of my skills in creating robust and user-friendly e-commerce solutions.",
     image:
       "https://github.com/qasimk02/zesty-ecom-frontend/raw/develop/readme-assets/zestyHomepage.PNG",
-    tags: ["Java","Javascript","Spring Boot","Spring Security","React","Redux","MUI","Tailwind Css","JWT","AWS"],
+    tags: [
+      "Java",
+      "Javascript",
+      "Spring Boot",
+      "Spring Security",
+      "React",
+      "Redux",
+      "MUI",
+      "Tailwind Css",
+      "JWT",
+      "AWS",
+    ],
     category: "web app",
     github: "https://github.com/qasimk02/zesty-ecom-backend",
-    webapp: "https://github.com/qasimk02/zesty-ecom-backend",
+    webapp: "https://zestyfal.netlify.app/",
   },
   {
     id: 1,
@@ -239,7 +250,15 @@ export const projects = [
       "A Blogging website, meticulously crafted with JSP, Servlet, MySQL, and Bootstrap,  providing users with a dynamic space to share their thoughts across diverse categories .This dynamic application seamlessly integrates user-generated content across specified categories. With a responsive design facilitated by Bootstrap, users can effortlessly engage with the platform on any device. Beyond mere blogging, interactive features like comments and likes foster a sense of community, making this app a vibrant space for discussions. This project stands as a testament to my proficiency in combining cutting-edge technologies to create a professional and engaging web solution. ",
     image:
       "https://raw.githubusercontent.com/qasimk02/TechBook/master/readme-assets/blogPage.PNG",
-    tags: ["Java","JSP","Servlet","MySql","JDBC","JavaScript","Bootstrap"],
+    tags: [
+      "Java",
+      "JSP",
+      "Servlet",
+      "MySql",
+      "JDBC",
+      "JavaScript",
+      "Bootstrap",
+    ],
     category: "web app",
     github: "https://github.com/qasimk02/TechBook",
     webapp: "https://github.com/qasimk02/TechBook",
@@ -252,7 +271,15 @@ export const projects = [
       "Developed a dynamic and secure face detection web application using a tech stack comprising React, NodeJS, and Express JS. Implemented a robust user authentication system, enabling users to create accounts, log in, and log out securely. The user-friendly React interface allows seamless image uploads for face detection. Leveraged PostgreSQL for efficient data management, storing and tracking the number of image entries in the database. A successful integration with the Clarifai API enhances the app's facial recognition capabilities. This project demonstrates my proficiency in full-stack development, user authentication, and seamless API integration.",
     image:
       "https://raw.githubusercontent.com/qasimk02/face-detectify-frontend/develop/readme-assets/faceDetectifyHome.PNG",
-    tags: ["React","Node JS","Express JS","PostgreSql","Clarifi API","CSS","Javascript"],
+    tags: [
+      "React",
+      "Node JS",
+      "Express JS",
+      "PostgreSql",
+      "Clarifi API",
+      "CSS",
+      "Javascript",
+    ],
     category: "machine learning",
     github: "https://github.com/qasimk02/face-detectify-frontend",
     webapp: "https://github.com/qasimk02/face-detectify-frontend",
@@ -265,10 +292,20 @@ export const projects = [
       "A web-based IOT application that seamlessly integrates Raspberry Pi, STM32, and a WiFi module to transmit device data seamlessly to a backend built on Python Flask and PostgreSQL. The project featured a secure React-based web app with real-time data visualization and dynamic charting for efficient monitoring and analysis, showcasing my skills in hardware integration, software development, and end-to-end solution creation",
     image:
       "https://raw.githubusercontent.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System/master/readme-assets/dashboard.png",
-    tags: ["Raspberry Pi","Python","Flask","React","Javascript","Css","Wifi Module"],
+    tags: [
+      "Raspberry Pi",
+      "Python",
+      "Flask",
+      "React",
+      "Javascript",
+      "Css",
+      "Wifi Module",
+    ],
     category: "iot",
-    github: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
-    webapp: "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
+    github:
+      "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
+    webapp:
+      "https://github.com/qasimk02/Sercuit-IOT-Based-Industry-Protection-System",
     member: [
       {
         name: "Mohammad Qasim",
@@ -289,10 +326,10 @@ export const projects = [
     title: "TIC TAC TOE",
     date: "June 2021 - July 2021",
     description:
-     "Created a responsive 2-player Tic Tac Toe game using HTML, CSS, and JavaScript, showcasing meticulous design and implementation. Focused on optimal user experience, the project involved careful calculations and precise DOM manipulation. The result is an engaging and seamless web game, demonstrating technical proficiency and a commitment to clean, efficient code. This project reflects a dedication to delivering a polished, user-centric product within a compact and responsive framework.",
+      "Created a responsive 2-player Tic Tac Toe game using HTML, CSS, and JavaScript, showcasing meticulous design and implementation. Focused on optimal user experience, the project involved careful calculations and precise DOM manipulation. The result is an engaging and seamless web game, demonstrating technical proficiency and a commitment to clean, efficient code. This project reflects a dedication to delivering a polished, user-centric product within a compact and responsive framework.",
     image:
       "https://raw.githubusercontent.com/qasimk02/Tic-tac-toe-game/master/readme-assets/gameWin.PNG",
-    tags: ["Html","CSS","Javascript"],
+    tags: ["Html", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/qasimk02/Tic-tac-toe-game",
     webapp: "https://master--tic-tac-toe-game-qasim.netlify.app/",
